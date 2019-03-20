@@ -1,0 +1,14 @@
+{
+  "name": "fundamentos",
+  "version": "1.0.1",
+  "description": "Primera Entrega",
+  "main": "decimo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edison Giraldo",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^13.2.2"
+  }
+}
