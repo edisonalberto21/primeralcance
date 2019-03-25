@@ -1,6 +1,8 @@
 const ur = require('colors');
 const { cursos }= require('./noveno');
 const fs = require('fs');
+var express = require('express')
+var app = express()
 
 
 
@@ -55,3 +57,11 @@ setTimeout(function(){console.log(" Si estas interesado, ingresa tus datos como 
 setTimeout(function(){console.log("Despues de el esquema " + "C:/Users/Administrador/Desktop/fundamentos>".green + "\nEscribe node decimo inscripcion --Id_Curso=" + "1".red + "--Nombre_Usuario="+"Edison_Giraldo".red +"--Cedula="+"3645623".red +"\ny modificas los valores en color rojo segun tu preferencia y datos personales")},6000);
 setTimeout(function(){console.log("")},6000);
 }
+
+
+ 
+app.get('/', function (req, res) {
+  res.send(texto)
+})
+ 
+app.listen(3000)
