@@ -1,6 +1,6 @@
 let cursos = [
 
-   { nombre: 'JAVA    ',
+   { nombre: 'JAVA PRUEBA    ',
     id : 1  ,
     duracion : "     1 mes",
     valor : "Gratuito  "
